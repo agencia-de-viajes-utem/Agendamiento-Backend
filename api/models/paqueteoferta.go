@@ -4,8 +4,8 @@ type PaqueteOferta struct {
 	ID                  int                        `json:"id"`
 	Nombre              string                     `json:"nombre"`
 	TotalPersonas       int                        `json:"total_personas"`
-	FechaInit           string                     `json:"fecha_init"`
-	FechaFin            string                     `json:"fecha_fin"`
+	FechaInit           string                     `json:"fechainit"`
+	FechaFin            string                     `json:"fechafin"`
 	IdOrigen            int                        `json:"id_ciudad_origen"`
 	IdDestino           int                        `json:"id_ciudad_destino"`
 	NombreCiudadOrigen  string                     `json:"nombre_ciudad_origen"`
