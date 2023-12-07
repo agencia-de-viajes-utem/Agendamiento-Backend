@@ -50,8 +50,8 @@ jobs:
       with:
         go-version: '1.21.1'
     - name: Instalar dependencias
-      run: |
-        cd back
+      run: #|
+        #cd back
         go mod download
 
     - name: Build
