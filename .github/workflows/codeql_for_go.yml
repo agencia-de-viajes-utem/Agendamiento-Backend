@@ -55,16 +55,16 @@ jobs:
         go mod download
 
     - name: Build
-      run: |
-        cd back
-        go build -v .
+      run: #|
+       # cd back
+         go build -v .
         
 
     - name: Testeo de go
       # No se han configurado tests todavía así que este paso no realiza nada momentaneamente
       # y se ha deshabilitado. queda pendiente desarrollar pruebas y que sean ejecutadas en esta acción.
-      run: |
-        cd back
+      run: #|
+        #cd back
         go test -v .
         
     - name: Realizar análisis con CodeQL
